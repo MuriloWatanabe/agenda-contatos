@@ -12,7 +12,7 @@ RUN dotnet restore
 
 COPY . .
 
-RUN dotnet publish src/Contacts.API/Contacts.API.csproj -c Release -o /publish --no-restore
+RUN dotnet publish src/Contacts.API/Contacts.API.csproj -c Release -o /publish
 
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
