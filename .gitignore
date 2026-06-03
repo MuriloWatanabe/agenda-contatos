@@ -1,0 +1,21 @@
+# .NET
+**/bin/
+**/obj/
+*.user
+*.suo
+.vs/
+
+# Node
+node_modules/
+.next/
+.env.local
+.env*.local
+npm-debug.log*
+
+# Docker volumes
+postgres_data/
+
+# IDE
+.idea/
+.vscode/
+*.swp
